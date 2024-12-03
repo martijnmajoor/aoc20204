@@ -7,7 +7,7 @@ class TestDay2(unittest.TestCase):
         self.assertEqual(safe('test.txt'), 2)
 
     def test_part2(self):
-        self.assertEqual(2, 2)
+        self.assertEqual(safe('test.txt', True), 4)
 
 if __name__ == "__main__":
     unittest.main()
